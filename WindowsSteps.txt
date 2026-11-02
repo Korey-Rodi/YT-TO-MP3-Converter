@@ -1,4 +1,4 @@
-#Installs and Pre-Reqs for use
+# Installs and Pre-Reqs for use
 
 ## Install yt-dlp
 
