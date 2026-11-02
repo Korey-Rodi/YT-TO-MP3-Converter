@@ -2,6 +2,26 @@
 
 ### DO NOT RUN COMMANDS IN YOUR TERMINAL THAT YOU DO NOT UNDERSTAND; REVIEW EACH COMMAND BEFORE RUNNING TO ENSURE IT IS SAFE FOR YOUR DEVICE
 
+## PRE-REQS (Installs and Verification) Mac Version
+
+## Install homebrew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## Install yt-dlp and ffmpeg
+
+```bash
+brew install yt-dlp ffmpeg
+```
+
+## Test installs
+
+```bash
+yt-dlp --version
+ffmpeg --version
+```
+
 ## STEP 1
 Refer to the steps file for the respective operating system
 Follow each one to ensure that the installs were completed
