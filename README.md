@@ -1,28 +1,23 @@
 # YT-TO-MP3-Converter tool via command line
-
 ### DO NOT RUN COMMANDS IN YOUR TERMINAL THAT YOU DO NOT UNDERSTAND; REVIEW EACH COMMAND BEFORE RUNNING TO ENSURE IT IS SAFE FOR YOUR DEVICE
-
 ## PRE-REQS (Installs and Verification) Mac Version
-
 ## Install homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
 ## Install yt-dlp and ffmpeg
-
 ```bash
 brew install yt-dlp ffmpeg
 ```
-
 ## Install yt-dlp
 ```powershell
 winget install --source winget --id yt-dlp.yt-dlp
 ```
+<hr>
 
 ## PRE-REQS (Installs and Verification) Windows Version
 
-## install FFmpeg
+## Install FFmpeg
 ```powershell
 winget install Gyan.FFmpeg
 ```
@@ -31,6 +26,7 @@ winget install Gyan.FFmpeg
 yt-dlp --version
 ffmpeg --version
 ```
+<hr>
 
 ## STEP 1
 For previous steps Refer to the steps file for the respective operating system
@@ -39,16 +35,13 @@ Follow each one to ensure that the installs were completed
 
 ## STEP 2
 Navigate to your desktop in the terminal using cd ./Desktop (This is where the downloaded files will go; if you wish to have them somewhere else make sure you are in the desired directory)
-
 ```bash
 cd ./Desktop
 ```
 
-
 ## STEP 3
 Run the command => yt-dlp -x --audio-format mp3 "LINK_GOES_HERE"
 This will begin the download of the desired files and store them as an MP3; If you wish to save them as WAV change mp3 to Wav in the command
-
 ```bash
 yt-dlp -x --audio-format mp3 "LINK_GOES_HERE"
 ```
