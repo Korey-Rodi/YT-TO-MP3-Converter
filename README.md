@@ -15,8 +15,18 @@
 brew install yt-dlp ffmpeg
 ```
 
-## Test installs
+## Install yt-dlp
+```powershell
+winget install --source winget --id yt-dlp.yt-dlp
+```
 
+## PRE-REQS (Installs and Verification) Windows Version
+
+## install FFmpeg
+```powershell
+winget install Gyan.FFmpeg
+```
+## Test installs
 ```bash
 yt-dlp --version
 ffmpeg --version
