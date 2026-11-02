@@ -1,4 +1,4 @@
-# YT-TO-MP#-Converter tool via command line
+# YT-TO-MP3-Converter tool via command line
 
 ### DO NOT RUN COMMANDS IN YOUR TERMINAL THAT YOU DO NOT UNDERSTAND; REVIEW EACH COMMAND BEFORE RUNNING TO ENSURE IT IS SAFE FOR YOUR DEVICE
 
@@ -23,7 +23,7 @@ ffmpeg --version
 ```
 
 ## STEP 1
-Refer to the steps file for the respective operating system
+For previous steps Refer to the steps file for the respective operating system
 Follow each one to ensure that the installs were completed
 (Note: this install requires you to have admin rights on the PC)
 
