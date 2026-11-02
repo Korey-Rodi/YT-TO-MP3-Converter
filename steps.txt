@@ -1,0 +1,14 @@
+#Installs and Pre-Reqs for use
+
+## Install yt-dlp
+
+winget install --source winget --id yt-dlp.yt-dlp
+
+## install FFmpeg
+
+winget install Gyan.FFmpeg
+
+## Test installs
+
+yt-dlp --version
+ffmpeg --version
