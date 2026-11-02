@@ -12,3 +12,9 @@ winget install Gyan.FFmpeg
 
 yt-dlp --version
 ffmpeg --version
+
+## Navigate to Desktop on Mac
+cd ./Desktop
+
+## Paste the command with desired youtube link
+yt-dlp -x --audio-format mp3 "LINK_GOES_HERE"
