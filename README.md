@@ -5,7 +5,8 @@
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-#Uninstall homebrew if needed
+### Uninstall homebrew if needed
+Utitlize this command if the homebrew installation failed or you did not correctly set path variables
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 ```
