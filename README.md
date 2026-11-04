@@ -5,6 +5,10 @@
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+#Uninstall homebrew if needed
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+```
 ## Install yt-dlp and ffmpeg
 ```bash
 brew install yt-dlp ffmpeg
